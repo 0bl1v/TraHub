@@ -765,6 +765,7 @@ local function ChangeTheme(Theme)
 	end
 
 	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
+    Rayfield.Main.Transparency = 0.7
 	Rayfield.Main.Topbar.BackgroundColor3 = SelectedTheme.Topbar
 	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
 	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
